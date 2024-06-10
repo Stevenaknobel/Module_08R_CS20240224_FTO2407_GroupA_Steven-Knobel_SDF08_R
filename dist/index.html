@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <footer class="bg-green-300">
+        <div class="px-6 py-12 mx-auto max-w-screen-lg">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            
+                <div class="sm:col-span-2 lg:col-span-1">
+                    <h1 class="font-bold">Subscribe to our newsletter for updates.</h1>
+                    <div class="flex mt-4">
+                        <input id="email" type="text" placeholder="Email Address" class="w-full sm:w-auto pl-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 mr-2">
+                        <button class="w-full sm:w-auto px-6 py-2 bg-red-400 text-white rounded-md shadow-sm hover:bg-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="sm:text-left lg:text-left sm:mt-4 lg:mt-0 sm:mr-5 lg:mr-5 lg:ml-0 lg:ml-10">
+                    <p class="font-bold">Quick Link</p>
+                    <div class="flex flex-col">
+                        <a href="#">Home</a>
+                        <a href="#">Who We Are</a>
+                        <a href="#">Our Philosophy</a>
+                    </div>
+                </div>
+            
+                <div class="sm:text-left lg:text-left sm:mt-4 lg:mt-0 sm:mr-5 lg:mr-5 lg:mt-4">
+                    <p class="font-bold">Technologies</p>
+                    <div class="flex flex-col">
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JavaScript</a>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-6 border border-red-400">
+            
+
+            <div class="flex justify-left sm:justify-start lg:justify-start">
+                <a href="#">
+                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
